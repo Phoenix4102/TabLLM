@@ -1,0 +1,37 @@
+# === Models ===
+*.tllm
+*.bin
+*.safetensors
+*.gguf
+tokenizer.json
+eos.txt
+
+# === Build artifacts ===
+build/
+build-android/
+.gradle/
+app/build/
+.cxx/
+*.apk
+*.aab
+*.so
+*.o
+*.a
+
+# === Python ===
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# === IDE ===
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# === Local config ===
+local.properties
+
+# === Screenshots ===
+Screenshots/
