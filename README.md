@@ -465,6 +465,7 @@ All parameters are adjustable in-app without recompilation:
 - **MediaTek** — Dimensity 9300+ silicon
 - **Samsung** — Samsung Galaxy Tab S10+
 - **Nlohmann JSON** — JSON for Modern C++
+- **Qwen 3.8 Max** — Generating code snippets
 
 ---
 Built from scratch. No frameworks. No shortcuts. Just C++ and math.
