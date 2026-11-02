@@ -91,9 +91,13 @@ This project was built incrementally, with each milestone adding a critical capa
 **Workflow**:
 
 [Python encode] → prompt_tokens.bin
+
 ↓
+
 [C++ Engine forward]
+
 ↓
+
 out_tokens.bin → [Python decode] → text
 
 
@@ -115,9 +119,13 @@ out_tokens.bin → [Python decode] → text
 **Workflow**:
 
 [Python encode] → prompt_tokens.bin
+
 ↓
+
 [C++ Engine forward + decode]
+
 ↓
+
 text (stdout)
 
 
@@ -139,9 +147,13 @@ text (stdout)
 **Workflow**:
 
 "./tabllm model.tllm "What is the capital of France?""
+
 ↓
+
 [C++ encode → forward → decode]
+
 ↓
+
 text (stdout)
 
 
